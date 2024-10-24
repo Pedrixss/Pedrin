@@ -32,9 +32,13 @@ p:last-child {
 }
 
 button:active {
-    transform: scale(0.95);
+    transform: scale(0.85);
 }
 
 p:not(.important) {
     color: #555;
+}
+
+section p:first-child {
+    font-weight: normal;
 }
