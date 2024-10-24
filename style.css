@@ -1,0 +1,40 @@
+
+a:hover {
+    color: #ff6347;
+}
+
+input:focus {
+    border-color: #4caf50; 
+}
+
+input[type="checkbox"]:checked {
+    color: #ff6347; 
+}
+
+button:disabled {
+    background-color: #ccc; /* Cinza */
+    color: #666; /* Cinza escuro */
+    cursor: not-allowed;
+}
+
+img:nth-child(odd) {
+    background-color: #f0f0f0; /* Cinza claro */
+}
+
+p:first-child {
+    font-weight: bold;
+    color: #000080; /* Azul marinho */
+}
+
+p:last-child {
+    font-style: italic;
+    color: #808080; /* Cinza */
+}
+
+button:active {
+    transform: scale(0.95); /* Reduz o tamanho */
+}
+
+p:not(.important) {
+    color: #555; /* Cinza escuro */
+}
