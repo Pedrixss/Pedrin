@@ -42,3 +42,6 @@ p:not(.important) {
 section p:first-child {
     font-weight: normal;
 }
+#galeria h2 {
+    color: #000080;
+}
