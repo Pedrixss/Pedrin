@@ -1,7 +1,13 @@
 
-a:hover {
+nav a {
+    color: #000080; 
+    text-decoration: none;
+}
+
+nav a:hover {
     color: #ff6347;
 }
+
 
 input:focus {
     border-color: #4caf50; 
@@ -41,7 +47,4 @@ p:not(.important) {
 
 section p:first-child {
     font-weight: normal;
-}
-#galeria h2 {
-    color: #000080;
 }
