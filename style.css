@@ -1,13 +1,7 @@
 
-nav a {
-    color: #000080; 
-    text-decoration: none;
-}
-
-nav a:hover {
+a:hover {
     color: #ff6347;
 }
-
 
 input:focus {
     border-color: #4caf50; 
