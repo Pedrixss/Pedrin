@@ -19,11 +19,7 @@ button:disabled {
 
 img:nth-child(odd) {
     background-color: #f0f0f0; /* Cinza claro */
-}
 
-p:first-child {
-    font-weight: bold;
-    color: #000080; /* Azul marinho */
 }
 
 p:last-child {
