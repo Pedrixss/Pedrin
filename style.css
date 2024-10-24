@@ -12,25 +12,29 @@ input[type="checkbox"]:checked {
 }
 
 button:disabled {
-    background-color: #ccc; /* Cinza */
-    color: #666; /* Cinza escuro */
+    background-color: #ccc;
+    color: #666;
     cursor: not-allowed;
 }
 
 img:nth-child(odd) {
-    background-color: #f0f0f0; /* Cinza claro */
+    background-color: #f0f0f0;
+}
 
+p:first-child {
+    font-weight: bold;
+    color: #000080;
 }
 
 p:last-child {
     font-style: italic;
-    color: #808080; /* Cinza */
+    color: #808080;
 }
 
 button:active {
-    transform: scale(0.95); /* Reduz o tamanho */
+    transform: scale(0.95);
 }
 
 p:not(.important) {
-    color: #555; /* Cinza escuro */
+    color: #555;
 }
