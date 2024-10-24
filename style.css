@@ -39,6 +39,3 @@ p:not(.important) {
     color: #555;
 }
 
-section p:first-child {
-    font-weight: normal;
-}
